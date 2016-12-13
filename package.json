@@ -1,0 +1,16 @@
+{
+  "name": "applique.css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "$(npm bin)/node-sass --recursive --output-style compressed ./scss/main.scss > applique.min.css"
+  },
+  "keywords": [],
+  "author": "Teruki Bito",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.0.0",
+    "normalize.css": "^5.0.0"
+  }
+}
